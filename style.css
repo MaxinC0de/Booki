@@ -1,0 +1,11 @@
+/*
+selector {
+    propertie: value;
+}
+*/
+
+p {
+    color: royalblue;
+}
+
+/*All p are in royalblue*/
