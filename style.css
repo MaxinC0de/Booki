@@ -1,12 +1,106 @@
+/* 
+
+I- FONTS - (24) 
+II- COLORS, CLASSES, AND IDS (44)
+III- COLORS AND BACKGROUND (64)
+IV- BORDERS AND SHADOWS (102)
+V- 
+VI-
+VII- 
+
+*/
+
+
+
 /*
 selector {
-    propertie: value;
+    propertie 1 : value 1;
+    propertie 2 : value 2;
+    ...
+    propertie x : value x;
 }
 */
 
-/*All p are in royalblue*/
+/* FONTS */
 
 p {
-    color: green;
+    font-size: 3em;
+    /* default is 1em */
+    font-family: Verdana;
+    /* arial black, futura, helvetica, impact, trebuchet MS, verdana */
+    font-style: italic;
+    font-weight: bold;
+    /* bold, normal, thin or 100, 200..., 900 with 400 being regular */
+    text-decoration: underline;
+    /* line-through, none, overline or underline */
+    text-align: center;
+    /* center, justify, left, right */
 }
+
+.wide-text {
+    font-size: 30px;
+}
+
+/* COLORS, CLASSES, AND IDS */
+
+h1, p {
+    color: pink;
+}
+
+
+.class-1 {
+    color :blueviolet;
+}
+
+/* 
+class = apply one style to all elements with that class _ specify it in css with a dot
+id = apply one style to one element with that id _ specify it in css with a hash
+*/
+
+#logo {
+    color: red;
+}
+
+/* COLORS AND BACKGROUND */
+
+h1 {
+    background-color: #violet;
+    color: pink; /* you can choose a different color from the body element (white color, cf below) */
+}
+
+body {
+    background-color: azure; /* background will be in azure */
+    color: white; /* text will be in white */
+}
+
+
+/* Modify the background image's behavior */
+.banner {
+    padding: 100px;
+    background-image: url(birds.jpg);
+
+    background-attachment: fixed; /* the background image will not scroll with the page */
+    background-size: cover; /* the background image will cover the whole banner */
+    background-position: center; /* top, bottom, left, center, right */
+
+    background: linear-gradient(90deg, #ff0000, #ff0000); /* linear-gradient(angle or direction, color1, color2) */
+    /* cf ui gradients & css gradients */
+
+    opacity: ; /* 1 to 0 */
+}
+
+/* "super propriété ???
+.........   {
+    background-image: ;
+    background-repeat: ;
+    background-attachment: ;
+    background-position: ;
+    background-size: ;
+}
+*/
+
+/* BORDERS & SHADOWS */
+
+
+
 
