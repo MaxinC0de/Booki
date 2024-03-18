@@ -16,6 +16,8 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: ;
+    
 }
 
 .main-container {
@@ -23,6 +25,27 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+}
+
+
+.header {
+    background-color: ;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 60px;                       
+}
+
+.navbar a {
+    margin-left: 40px;
+}
+
+.navbar-a:hover {
+    color: #0065FC;
 }
 
 a {
@@ -56,12 +79,6 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
-}
-
-.container-header {
-    display: flex;
-    display: inline-block;
-    justify-content: flex-end;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -126,8 +143,6 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
-
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
