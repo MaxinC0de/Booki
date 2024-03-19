@@ -81,6 +81,67 @@ a {
     color: var(--main-bg-color)
 }
 
+/*********** FORM ZONE  *************/
+
+.h1-form {
+    font-size: 16px;
+    margin: 45px 0px 3px 0px;
+    padding: 0;
+}
+
+.p-form {
+    font-size: 12px;
+    margin: 6px 3px 12px 3px;
+}
+
+.location-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 35px 0px 50px 0px;
+
+    border-radius: 16px;
+
+    height: 40px;
+    width: 300px;
+
+    border: #f2f2f2 solid 1px;
+
+
+}
+
+#research-1{
+    background-color: #f2f2f2;
+
+    margin:auto;
+    padding: 14px;
+
+    border-radius: 17px 0px 0px 17px;
+
+    box-sizing: border-box;
+
+
+}
+
+#research-2 {
+    margin: auto;
+
+    box-sizing: border-box;
+}
+
+#research-3 {
+    color: #ffffff;
+    background-color: #0065FC;
+   
+    border-radius: 0px 17px 17px 0px;
+
+    box-sizing: border-box;
+
+}
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
