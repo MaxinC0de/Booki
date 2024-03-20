@@ -142,6 +142,50 @@ a {
 
 
 
+
+
+/****** Hebergements And Populaires ***********/
+
+.filters:hover {
+    background-color: #dfeaff;
+    opacity: 0.5;
+    
+
+}
+
+.filter-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.filters {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: #d9d8d8 solid 3px;
+    border-radius: 25px;
+
+    margin: 0px 10px 0px 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+
+}
+
+.p-filters {
+    margin: 0px 0px 0px 5px;
+    padding: 5px;
+
+
+}
+
+
+
+
+
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
